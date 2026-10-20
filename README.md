@@ -42,13 +42,13 @@ This project analyzes transaction data from Afficionado Coffee Roasters to under
 The supplied dataset does not contain a transaction date. Therefore, weekday, daily, weekly, and chronological annual sales trends could not be reliably calculated.
 
 ### Project Structure
-├── Afficionado Coffee Roasters.xlsx - Transactions.csv # Raw data
-├── clean_and_engineer.py # Data cleaning + feature engineering
-├── afficionado_clean.csv # Cleaned dataset
-├── analysis.py # EDA, charts, summary tables
-├── analysis_outputs/ # Generated charts + CSV summaries
-├── app.py # Streamlit dashboard
-└── requirements.txt # Python dependencies
+1. Afficionado Coffee Roasters.xlsx - Transactions.csv # Raw data
+2. clean_and_engineer.py # Data cleaning + feature engineering
+3. afficionado_clean.csv # Cleaned dataset
+4. analysis.py # EDA, charts, summary tables
+5. analysis_outputs/ # Generated charts + CSV summaries
+6. app.py # Streamlit dashboard
+7. requirements.txt # Python dependencies
 
 ### Run Locally
 Clone the repository:
