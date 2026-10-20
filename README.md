@@ -1,6 +1,8 @@
-
 # Afficionado Coffee Roasters
 ## Sales Trend and Time-Based Performance Analysis
+
+### Live Dashboard
+🔗 [View the live Streamlit dashboard](https://afficionado-coffee-sales-analysis-a.streamlit.app/)
 
 ### Project Overview
 This project analyzes transaction data from Afficionado Coffee Roasters to understand hourly demand, revenue patterns, store performance, and product category sales.
@@ -39,7 +41,21 @@ This project analyzes transaction data from Afficionado Coffee Roasters to under
 ### Data Limitation
 The supplied dataset does not contain a transaction date. Therefore, weekday, daily, weekly, and chronological annual sales trends could not be reliably calculated.
 
+### Project Structure
+├── Afficionado Coffee Roasters.xlsx - Transactions.csv # Raw data
+├── clean_and_engineer.py # Data cleaning + feature engineering
+├── afficionado_clean.csv # Cleaned dataset
+├── analysis.py # EDA, charts, summary tables
+├── analysis_outputs/ # Generated charts + CSV summaries
+├── app.py # Streamlit dashboard
+└── requirements.txt # Python dependencies
+
 ### Run Locally
+Clone the repository:
+
+    git clone https://github.com/sarpitha-05/afficionado-coffee-sales-analysis.git
+    cd afficionado-coffee-sales-analysis
+
 Install the dependencies:
 
     py -m pip install -r requirements.txt
